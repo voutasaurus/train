@@ -1,0 +1,16 @@
+current directory: /Users/voutasaurus/github.com/voutasaurus/train/ruby_gems/gems/bootsnap-1.13.0/ext/bootsnap
+/nix/store/zk2fhqzacf0pfap22n8hnffbj9z3yx96-ruby-3.0.4/bin/ruby -I /nix/store/zk2fhqzacf0pfap22n8hnffbj9z3yx96-ruby-3.0.4/lib/ruby/3.0.0 -r ./siteconf20220920-90228-rm2r87.rb extconf.rb
+creating Makefile
+
+current directory: /Users/voutasaurus/github.com/voutasaurus/train/ruby_gems/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/voutasaurus/github.com/voutasaurus/train/ruby_gems/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+ld: warning: directory not found for option '-L/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-clang-wrapper-11.1.0/resource-root/lib'
+
+current directory: /Users/voutasaurus/github.com/voutasaurus/train/ruby_gems/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= install
+/nix/store/q5adnlrxq08zr1cik50mriw63jz1jpg5-coreutils-9.0/bin/install -c -m 0755 bootsnap.bundle ./.gem.20220920-90228-6odr7u/bootsnap

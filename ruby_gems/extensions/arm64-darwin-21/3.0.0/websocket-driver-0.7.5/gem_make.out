@@ -1,0 +1,16 @@
+current directory: /Users/voutasaurus/github.com/voutasaurus/train/ruby_gems/gems/websocket-driver-0.7.5/ext/websocket-driver
+/nix/store/zk2fhqzacf0pfap22n8hnffbj9z3yx96-ruby-3.0.4/bin/ruby -I /nix/store/zk2fhqzacf0pfap22n8hnffbj9z3yx96-ruby-3.0.4/lib/ruby/3.0.0 -r ./siteconf20220920-89498-1m47u1.rb extconf.rb
+creating Makefile
+
+current directory: /Users/voutasaurus/github.com/voutasaurus/train/ruby_gems/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /Users/voutasaurus/github.com/voutasaurus/train/ruby_gems/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+ld: warning: directory not found for option '-L/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-clang-wrapper-11.1.0/resource-root/lib'
+
+current directory: /Users/voutasaurus/github.com/voutasaurus/train/ruby_gems/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= install
+/nix/store/q5adnlrxq08zr1cik50mriw63jz1jpg5-coreutils-9.0/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20220920-89498-lm4dsc

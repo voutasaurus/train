@@ -1,0 +1,21 @@
+current directory: /Users/voutasaurus/github.com/voutasaurus/train/ruby_gems/gems/io-console-0.5.11/ext/io/console
+/nix/store/zk2fhqzacf0pfap22n8hnffbj9z3yx96-ruby-3.0.4/bin/ruby -I /nix/store/zk2fhqzacf0pfap22n8hnffbj9z3yx96-ruby-3.0.4/lib/ruby/3.0.0 -r ./siteconf20220920-90228-k4hzdq.rb extconf.rb
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... no
+checking for rb_scheduler_timeout()... no
+creating Makefile
+
+current directory: /Users/voutasaurus/github.com/voutasaurus/train/ruby_gems/gems/io-console-0.5.11/ext/io/console
+make DESTDIR\= clean
+
+current directory: /Users/voutasaurus/github.com/voutasaurus/train/ruby_gems/gems/io-console-0.5.11/ext/io/console
+make DESTDIR\=
+compiling console.c
+linking shared-object io/console.bundle
+ld: warning: directory not found for option '-L/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-clang-wrapper-11.1.0/resource-root/lib'
+
+current directory: /Users/voutasaurus/github.com/voutasaurus/train/ruby_gems/gems/io-console-0.5.11/ext/io/console
+make DESTDIR\= install
+/nix/store/q5adnlrxq08zr1cik50mriw63jz1jpg5-coreutils-9.0/bin/install -c -m 0755 console.bundle ./.gem.20220920-90228-bm7pu2/io
